@@ -1,0 +1,88 @@
+
+body{
+    background-color: lightseagreen; 
+}
+
+ 
+.navbar {
+    background-color: transparent !important;
+}
+
+a:hover {
+    color: orange !important;
+}
+
+#circle {
+    background-color: orange;
+    color: black;
+    margin-top: -75px;
+    margin-left: -40px;
+    width: 200px;
+    height: 200px;
+    border-bottom-right-radius: 80%;
+    z-index: -10;
+
+}
+
+#circle:hover{
+    width: 240px;
+    height: 240px;
+
+}
+
+.wrapper {
+    
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+}
+
+.title {
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+h1 {
+    color: teal;
+}
+h3 {
+    color: white;
+}
+h5 {
+    color: orangered
+}
+
+.van{
+    margin: 0em;
+    padding: 0%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#van {
+    width: 20%;
+    position: relative;
+    display: block;
+    margin: auto;
+   
+}
+
+.forestBackground{
+    margin: 0em;
+    padding: 0%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+#forestBackground {
+    width: 100vw;
+    position: relative;
+    display: block;
+    float: left;
+    z-index: -1;
+   
+}
+

@@ -1,0 +1,68 @@
+
+body{
+    background-color: lightseagreen; 
+}
+.wrapper {
+    
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+a:hover {
+    color: orange !important;
+}
+
+.title {
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+h1 {
+    color: teal;
+}
+h3 {
+    color: white;
+}
+h5 {
+    color: orangered
+}
+
+.van{
+    margin: 0em;
+    padding: 0%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#van {
+    width: 20%;
+    position: relative;
+    display: block;
+    margin: auto;
+   
+}
+
+.mountainBackground{
+    margin: 0em;
+    padding: 0%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+#mountainBackground {
+    width: 100vw;
+    position: relative;
+    display: block;
+    float: left;
+    z-index: -1;
+   
+}
+
