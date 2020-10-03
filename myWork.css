@@ -1,0 +1,175 @@
+
+body{
+    background-color: lightseagreen; 
+}
+
+ 
+.navbar {
+    background-color: transparent !important;
+}
+
+
+a:hover {
+    color: orange !important;
+}
+
+/* #sunHome {
+    background-color: orange;
+    color: black;
+    margin-top: -75px;
+    margin-left: -40px;
+    width: 200px;
+    height: 200px;
+    border-bottom-right-radius: 80%;
+    z-index: -10;
+
+} */
+
+
+
+
+.wrapper {
+    
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+}
+
+.container{
+    margin: auto auto !important;
+}
+
+#cardAlign{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 75vw;
+    text-align: center;
+    padding: auto;
+}
+
+#singleCard{
+    margin: auto;
+    color: white;
+}
+
+.card-body {
+    background-color: teal !important;
+    
+}
+
+.btn-primary{
+    background-color: orange;
+    border-style: none;
+}
+
+.van{
+    margin: 0em;
+    padding: 0%;
+    width: 100%;
+    bottom: 3em;
+}
+
+#orangeVan {
+    left: 40%;
+    position: absolute;
+    bottom: 3em;
+    
+    /* margin: auto; */
+   
+}
+
+.forestBackground{
+    margin: 0em;
+    padding: 0%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    margin: 0 auto;
+    left: 0;
+}
+#forestBackground {
+    width: 100vw;
+    position: relative;
+    display: block;
+    float: left;
+    z-index: -1;
+   
+}
+
+#slide1_container {
+    width:450px;
+    height:281px;
+    overflow:hidden; /* So the sliding bit doesn't stick out. */
+    margin:0 auto;
+  }
+  #slide1_images {
+    /* This is the bit that moves. It has 4 images, so 4 * 450 = 1800. You could use javascript
+    to work this out instead by counting images. */
+    width:1800px;
+  
+    -webkit-transition:all 1.0s ease-in-out;
+    -moz-transition:all 1.0s ease-in-out;
+    -o-transition:all 1.0s ease-in-out;
+    transition:all 1.0s ease-in-out;
+  }
+  #slide1_images img {
+    padding:0;
+    margin:0;
+    float:left; /* All the images are in a row next to each other. */
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3em;
+    line-height: 3em;
+    background-color:lightseagreen;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-muted {
+    color: white;
+    margin: auto;
+}
+
+#formbutton-button {
+    background: orangered !important;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* LinkedIn */
+  .fa-linkedin {
+    background: none;
+    color: white;
+  }
+  
+  /* Github */
+  .fa-github {
+    background: non;
+    color: white;
+  }
+  
+
+
